@@ -58,7 +58,7 @@ export const content = {
     },
   ],
   hero: {
-    title: "Web Developer",
+    title: "Software Architect",
     firstName: "Henmanuel",
     LastName: "Vargas",
     btnText: "Hire Me",
