@@ -1,5 +1,5 @@
 // import images
-import Hero_person from "./assets/images/Hero/person.png";
+import Hero_person from "./assets/images/Hero/Henma.png";
 
 import figma from "./assets/images/Skills/figma.png";
 import sketch from "./assets/images/Skills/sketch.png";
@@ -59,14 +59,14 @@ export const content = {
   ],
   hero: {
     title: "Web Developer",
-    firstName: "JOHN",
-    LastName: "ALEX",
+    firstName: "Henmanuel",
+    LastName: "Vargas",
     btnText: "Hire Me",
     image: Hero_person,
     hero_content: [
       {
         count: "8+",
-        text: "Years of Experinse in Web development",
+        text: "Years of Expense in Software Architecture",
       },
       {
         count: "20+",
@@ -194,14 +194,14 @@ export const content = {
     subtitle: "GET IN TOUCH",
     social_media: [
       {
-        text: "codeaprogram@gmail.com",
+        text: "henmanuelvargas@gmail.com",
         icon: GrMail,
-        link: "mailto:codeaprogram@gmail.com",
+        link: "mailto:henmanuelvargas@gmail.com",
       },
       {
-        text: "+91 1234 56778",
+        text: "+506 7271 6641",
         icon: MdCall,
-        link: "https://wa.me/1234567890",
+        link: "https://wa.me/message/2AGAMZCPXIXNG1",
       },
       {
         text: "codeaprogram",
@@ -211,6 +211,6 @@ export const content = {
     ],
   },
   Footer: {
-    text: "All © Copy Right Reserved 2022",
+    text: "All © Copy Right Reserved 2023",
   },
 };
