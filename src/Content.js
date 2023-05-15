@@ -12,6 +12,7 @@ import python from "./assets/images/Skills/python.png";
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
 import services_logo3 from "./assets/images/Services/logo3.png";
+import cloud from "./assets/images/Services/cloud.png";
 
 import project1 from "./assets/images/projects/img1.png";
 import project2 from "./assets/images/projects/img2.png";
@@ -136,19 +137,19 @@ export const content = {
     subtitle: "WHAT I OFFER",
     service_content: [
       {
-        title: "Web Development",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        title: "Web and Mobile Development",
+        para: "Boost your online presence with customized, high-performance websites and mobile applications. I use technologies like React.js, Angular, and React Native to provide intuitive and engaging solutions that captivate your users.",
         logo: services_logo1,
       },
       {
-        title: "ui / ux DESIGNING",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
-        logo: services_logo2,
+        title: "Cloud Architecture and Automation",
+        para: "Optimize your technology infrastructure by migrating to the cloud and automating key processes. As an AWS expert, I design scalable and secure architectures, while task automation saves time and enhances your business efficiency.",
+        logo: cloud,
       },
       {
-        title: "PhotoShop Editing",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
-        logo: services_logo3,
+        title: "User Interface Design and Project Management",
+        para: "Stand out with visually appealing and functional designs that deliver an exceptional user experience. I leverage tools like Figma to create intuitive interfaces, and with my agile project management approach, I ensure successful deliveries and effective communication.",
+        logo: services_logo2,
       },
     ],
   },
