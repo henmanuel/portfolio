@@ -1,9 +1,10 @@
 // import images
 import Hero_person from "./assets/images/Hero/HenmaScriptDraw.png";
 
+import javascript from "./assets/images/Skills/javascript.png";
+import typescript from "./assets/images/Skills/typescript.png";
+import aws from "./assets/images/Skills/aws.png";
 import figma from "./assets/images/Skills/figma.png";
-import sketch from "./assets/images/Skills/sketch.png";
-import ps from "./assets/images/Skills/ps.png";
 import reactjs from "./assets/images/Skills/react.png";
 import nodejs from "./assets/images/Skills/node.png";
 import python from "./assets/images/Skills/python.png";
@@ -79,35 +80,54 @@ export const content = {
     subtitle: "MY TOP SKILLS",
     skills_content: [
       {
-        name: "Figma",
-        para: "Lorem ipsum text  dummy",
-        logo: figma,
+        name: "JavaScript",
+        para: "Experienced JavaScript Developer Empowering Dynamic Web Solutions",
+        logo: javascript,
+        list: "With a strong background in JavaScript, I am equipped to develop innovative and scalable solutions in the field of web development. My in-depth knowledge of this programming language allows me to create interactive and dynamic applications, providing an exceptional user experience. I constantly stay updated on the latest trends and practices in JavaScript to deliver high-quality results and meet the specific needs of my clients.",
       },
       {
-        name: "Node js",
-        para: "Lorem ipsum text  dummy",
-        logo: nodejs,
-      },
-      {
-        name: "Adobe Photoshop",
-        para: "Lorem ipsum text  dummy",
-        logo: ps,
-      },
-      {
-        name: "React js",
-        para: "Lorem ipsum text  dummy",
-        logo: reactjs,
-      },
-      {
-        name: "Sketch",
-        para: "Lorem ipsum text  dummy",
-        logo: sketch,
+        name: "TypeScript",
+        para: "Skilled TypeScript Developer Enhancing Scalable and Type-Safe Solutions",
+        logo: typescript,
+        list: "With extensive experience in Python, I am proficient in developing efficient and versatile solutions that meet diverse project requirements. Leveraging the power of Python, I create robust and scalable applications that streamline workflows and drive productivity. My expertise in Python allows me to leverage its extensive library ecosystem, enabling me to develop solutions with enhanced functionality and performance. Whether it's web development, data analysis, or automation, I leverage Python to deliver high-quality and effective solutions.",
       },
       {
         name: "Python",
-        para: "Lorem ipsum text  dummy",
+        para: "Proficient Python Developer Delivering Efficient and Versatile Solutions",
         logo: python,
+        list: "With extensive experience in TypeScript, I excel in developing robust and type-safe applications that enhance scalability and maintainability. Leveraging my expertise in TypeScript, I ensure the codebase is more structured and less prone to errors, resulting in efficient development and improved software quality. My proficiency in TypeScript enables me to create scalable web solutions with enhanced code maintainability, providing a seamless user experience.",
       },
+      {
+        name: "AWS",
+        para: "AWS Cloud Architect Empowering Scalable and Secure Solutions",
+        logo: aws,
+        list: "As a skilled AWS Cloud Architect, I specialize in designing and implementing scalable and secure cloud solutions. Leveraging the power of Amazon Web Services (AWS), I help organizations optimize their infrastructure, reduce costs, and achieve high availability. With expertise in AWS services such as EC2, S3, Lambda, and CloudFormation, I architect robust and scalable cloud environments tailored to the unique requirements of each project. By implementing best practices in security, monitoring, and automation, I ensure data protection and efficient resource utilization. Collaborating with cross-functional teams, I provide strategic guidance and technical leadership throughout the cloud migration and deployment processes. With a focus on innovation and continuous improvement, I empower businesses to leverage the full potential of AWS and drive their digital transformation journey."
+      },
+      {
+        name: "Node js",
+        para: "Node.js Developer Driving Scalable and High-Performing Applications",
+        logo: nodejs,
+        list: "As a skilled Node.js developer, I specialize in building scalable and high-performing applications. Leveraging the power of Node.js, I design and develop server-side solutions that handle large volumes of concurrent requests and deliver optimal performance. With expertise in Node.js frameworks like Express and Nest.js, I create robust APIs and microservices that power modern web and mobile applications. By utilizing the event-driven, non-blocking architecture of Node.js, I ensure seamless and efficient communication between different components of the application, resulting in enhanced speed and responsiveness."
+      },
+      {
+        name: "Figma",
+        para: "Figma Designer Crafting Stunning and User-Centric Experiences",
+        logo: figma,
+        list: "As a talented Figma designer, I specialize in creating stunning and user-centric experiences. Leveraging the powerful features of Figma, I design intuitive and visually appealing interfaces for web and mobile applications. With a deep understanding of user experience (UX) principles, I create seamless workflows, captivating visuals, and interactive prototypes that bring ideas to life. Collaborating closely with development teams, I ensure smooth handoffs and pixel-perfect implementations. By utilizing Figma's collaborative features, I foster effective communication and streamline the design process, resulting in efficient and visually captivating products."
+      },
+      {
+        name: "React js",
+        para: "React.js Developer Building Powerful and Dynamic Web Applications",
+        logo: reactjs,
+        list: "As a skilled React.js developer, I specialize in building powerful and dynamic web applications. With expertise in React.js, I leverage its component-based architecture to create highly responsive and interactive user interfaces. Through the use of state management libraries like Redux or MobX, I ensure seamless data flow and efficient application performance. With a deep understanding of React.js best practices, I optimize code for reusability, maintainability, and scalability. Collaborating closely with cross-functional teams, I contribute to the development of robust and feature-rich applications that deliver exceptional user experiences."
+      }
+      ,
+      {
+        name: "React Native",
+        para: "React Native Developer Building Cross-Platform Mobile Applications",
+        logo: reactjs,
+        list: "As an experienced React Native developer, I specialize in building cross-platform mobile applications. Leveraging the power of React Native, I create high-performance and visually appealing apps that work seamlessly on both iOS and Android platforms. With a deep understanding of React Native's component-based architecture, I develop reusable UI components that ensure consistency and efficiency across different devices. By utilizing popular libraries and tools like Redux and React Navigation, I implement robust state management and smooth navigation within the app. Collaborating with designers and backend developers, I deliver intuitive and user-friendly mobile experiences that meet the unique needs of clients and end-users."
+      }
     ],
     icon: MdArrowForward,
   },
@@ -157,25 +177,25 @@ export const content = {
     testimonials_content: [
       {
         review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+          "“Henmanuel's expertise as an AWS Cloud Architect surpassed our expectations. Highly recommended for delivering scalable and secure cloud solutions.”",
         img: avatar1,
-        name: "JOHN DOE",
+        name: "JOHNNY GUZMAN",
       },
       {
         review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+          "“Henmanuel's proficiency in React Native impressed us. Highly recommended for top-notch solutions in mobile app development.”",
         img: avatar2,
-        name: "Tom Alex",
+        name: "Alex Din",
       },
       {
         review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+          "“We are grateful for Henmanuel's exceptional design skills in Figma. Highly recommended for visually stunning and user-friendly designs.”",
         img: avatar3,
         name: "Johnny",
       },
       {
         review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+          "“Henmanuel's expertise in TypeScript elevated our web development projects. Highly recommended for clean and scalable coding.”",
         img: avatar4,
         name: "ROBBIN",
       },
@@ -186,7 +206,7 @@ export const content = {
     subtitle: "FOR YOUR PROJECTS",
     image1: Hireme_person,
     image2: Hireme_person2,
-    para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+    para: "I'm Henmanuel, a passionate solutions architect and developer with extensive experience in technologies such as AWS, React Native, Figma, TypeScript, and Node.js. I offer high-quality, efficient, and creative technological solutions to help you achieve your goals. If you're looking for exceptional results, don't hesitate to contact me. I'm ready to take your projects to the next level. Let's work together to achieve the success you're looking for in your technological projects!",
     btnText: "Hire Me",
   },
   Contact: {

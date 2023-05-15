@@ -6,7 +6,9 @@ const Hireme = () => {
   return (
     <section className="bg-bg_light_primary">
       <div className="md:container px-5 pt-14">
-        <h2 className="title" data-aos="fade-down">
+        <h2 className="title" data-aos="fade-down" onClick={() => {
+          window.location.href = "https://wa.me/message/2AGAMZCPXIXNG1";
+        }}>
           {Hireme.title}
         </h2>
         <h4 className="subtitle" data-aos="fade-down">
@@ -33,7 +35,9 @@ const Hireme = () => {
           >
             <p className="leading-7">{Hireme.para}</p>
             <br />
-            <button className="btn bg-dark_primary text-white">
+            <button className="btn bg-dark_primary text-white" onClick={() => {
+              window.location.href = "https://wa.me/message/2AGAMZCPXIXNG1";
+            }}>
               {Hireme.btnText}
             </button>
           </div>
