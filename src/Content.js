@@ -1,5 +1,5 @@
 // import images
-import Hero_person from "./assets/images/Hero/HenmaScriptDraw.png";
+import Hero_person from "./assets/images/Hero/HenmaScriptDraw2.png";
 
 import javascript from "./assets/images/Skills/javascript.png";
 import typescript from "./assets/images/Skills/typescript.png";
