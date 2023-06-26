@@ -23,7 +23,8 @@ const Hero = () => {
           <h2>{hero.title}</h2>
           <br />
           <div className="flex justify-end">
-            <button className="btn" onClick={() => {
+            <button className="btn bg-white" onClick={() => {
+              fbq('track', 'Lead');
               window.location.href = "https://wa.me/message/2AGAMZCPXIXNG1";
             }}>{hero.btnText}</button>
           </div>

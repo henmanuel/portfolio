@@ -7,6 +7,7 @@ const Hireme = () => {
     <section className="bg-bg_light_primary">
       <div className="md:container px-5 pt-14">
         <h2 className="title" data-aos="fade-down" onClick={() => {
+          fbq('track', 'Lead');
           window.location.href = "https://wa.me/message/2AGAMZCPXIXNG1";
         }}>
           {Hireme.title}
@@ -36,6 +37,7 @@ const Hireme = () => {
             <p className="leading-7">{Hireme.para}</p>
             <br />
             <button className="btn bg-dark_primary text-white" onClick={() => {
+              fbq('track', 'Lead');
               window.location.href = "https://wa.me/message/2AGAMZCPXIXNG1";
             }}>
               {Hireme.btnText}

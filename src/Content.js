@@ -11,12 +11,31 @@ import python from "./assets/images/Skills/python.png";
 
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
-import services_logo3 from "./assets/images/Services/logo3.png";
 import cloud from "./assets/images/Services/cloud.png";
 
-import project1 from "./assets/images/projects/img1.png";
-import project2 from "./assets/images/projects/img2.png";
-import project3 from "./assets/images/projects/img3.png";
+import betcris from "./assets/images/projects/betcris.png";
+import bookmaker from "./assets/images/projects/bookmaker.png";
+import sedimec from "./assets/images/projects/sedimec.png";
+import observatorioUNGL from "./assets/images/projects/observatorioUNGL.png";
+import correosvirtual from "./assets/images/projects/correosvirtual.png";
+import greenpay from "./assets/images/projects/greenpay.png";
+import BACapp from "./assets/images/projects/BACapp.png";
+import kolbiapp from "./assets/images/projects/kolbiapp.png";
+import claroapp from "./assets/images/projects/claroapp.png";
+import any2suite from "./assets/images/projects/any2suite.png";
+import ampm from "./assets/images/projects/ampm.png";
+import coopesantos from "./assets/images/projects/coopesantos.png";
+import ciisa from "./assets/images/projects/ciisa.png";
+import hiopos from "./assets/images/projects/hiopos.png";
+import terrasaslindora from "./assets/images/projects/terrasaslindora.png";
+import msj from "./assets/images/projects/msj.png";
+import any2chat from "./assets/images/projects/any2chat.png";
+import CIISARH from "./assets/images/projects/CIISARH.png";
+import syj from "./assets/images/projects/syj.png";
+import prosalud from "./assets/images/projects/prosalud.png";
+import puma from "./assets/images/projects/puma.png";
+import tempo from "./assets/images/projects/tempo.png";
+
 import person_project from "./assets/images/projects/HenmaScriptDraw.png";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
@@ -32,6 +51,11 @@ import { GrMail } from "react-icons/gr";
 import { MdArrowForward, MdCall } from "react-icons/md";
 import { BsInstagram } from "react-icons/bs";
 import { TbSmartHome } from "react-icons/tb";
+
+import { BiLogoWhatsapp } from "react-icons/bi";
+import { BiLogoLinkedin } from "react-icons/bi";
+import { AiOutlineFacebook } from "react-icons/ai";
+import { BiLogoGithub } from "react-icons/bi";
 import { BiUser } from "react-icons/bi";
 import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
 import { MdOutlinePermContactCalendar } from "react-icons/md";
@@ -90,13 +114,13 @@ export const content = {
         name: "TypeScript",
         para: "Skilled TypeScript Developer Enhancing Scalable and Type-Safe Solutions",
         logo: typescript,
-        list: "With extensive experience in Python, I am proficient in developing efficient and versatile solutions that meet diverse project requirements. Leveraging the power of Python, I create robust and scalable applications that streamline workflows and drive productivity. My expertise in Python allows me to leverage its extensive library ecosystem, enabling me to develop solutions with enhanced functionality and performance. Whether it's web development, data analysis, or automation, I leverage Python to deliver high-quality and effective solutions.",
+        list: "With extensive experience in TypeScript, I excel in developing robust and type-safe applications that enhance scalability and maintainability. Leveraging my expertise in TypeScript, I ensure the codebase is more structured and less prone to errors, resulting in efficient development and improved software quality. My proficiency in TypeScript enables me to create scalable web solutions with enhanced code maintainability, providing a seamless user experience.",
       },
       {
         name: "Python",
         para: "Proficient Python Developer Delivering Efficient and Versatile Solutions",
         logo: python,
-        list: "With extensive experience in TypeScript, I excel in developing robust and type-safe applications that enhance scalability and maintainability. Leveraging my expertise in TypeScript, I ensure the codebase is more structured and less prone to errors, resulting in efficient development and improved software quality. My proficiency in TypeScript enables me to create scalable web solutions with enhanced code maintainability, providing a seamless user experience.",
+        list: "With extensive experience in Python, I am proficient in developing efficient and versatile solutions that meet diverse project requirements. Leveraging the power of Python, I create robust and scalable applications that streamline workflows and drive productivity. My expertise in Python allows me to leverage its extensive library ecosystem, enabling me to develop solutions with enhanced functionality and performance. Whether it's web development, data analysis, or automation, I leverage Python to deliver high-quality and effective solutions.",
       },
       {
         name: "AWS",
@@ -155,21 +179,119 @@ export const content = {
   },
   Projects: {
     title: "Projects",
-    subtitle: "MY CREATION",
+    subtitle: "MY CONTRIBUTIONS",
     image: person_project,
     project_content: [
       {
-        title: "Gym Website",
-        image: project1,
+        title: "Betcris",
+        image: betcris,
+        link: "https://betcris.com",
       },
       {
-        title: "Social Media web",
-        image: project2,
+        title: "Bookmaker",
+        image: bookmaker,
+        link: "https://www.bookmaker.eu",
       },
       {
-        title: "Creative Website",
-        image: project3,
+        title: "Sedimec",
+        image: sedimec,
+        link: "https://sedimec-med.dictamenmedico.com/login/auth",
       },
+      {
+        title: "Observatorio UNGL",
+        image: observatorioUNGL,
+        link: "https://observatorio.ungl.or.cr/",
+      },
+      {
+        title: "Correos Virtual",
+        image: correosvirtual,
+        link: "https://sucursal.correos.go.cr/home",
+      },
+      {
+        title: "Pagos Greenpay",
+        image: greenpay,
+        link: "https://greenpay.me",
+      },
+      {
+        title: "BAC app",
+        image: BACapp,
+        link: "https://play.google.com/store/apps/details?id=net.bac.sbe.android",
+      },
+      {
+        title: "Kolbi app",
+        image: kolbiapp,
+        link: "https://play.google.com/store/apps/details?id=cr.go.ice.mav.activity",
+      },
+      {
+        title: "Claro app",
+        image: claroapp,
+        link: "https://play.google.com/store/apps/details?id=com.claro.miclaro",
+      },
+      {
+        title: "Any2suite",
+        image: any2suite,
+        link: "https://any2suite.com",
+      },
+      {
+        title: "AMPM",
+        image: ampm,
+        link: "https://wa.me/50687712676?text=Hola",
+      },
+      {
+        title: "Coopesantos",
+        image: coopesantos,
+        link: "https://wa.me/50684692525?text=Hola",
+      },
+      {
+        title: "CIISA",
+        image: ciisa,
+        link: "https://wa.me/50662333385?text=Hola",
+      },
+      {
+        title: "Hiopost",
+        image: hiopos,
+        link: "https://wa.me/50670769185?text=Hola",
+      },
+      {
+        title: "Terrasas Lindora",
+        image: terrasaslindora,
+        link: "https://wa.me/50664738931?text=Hola",
+      },
+      {
+        title: "Municipalidad de San José",
+        image: msj,
+        link: "https://wa.me/50688175186?text=Hola",
+      },
+      {
+        title: "Any2chat",
+        image: any2chat,
+        link: "https://wa.me/50663036361?text=Hola",
+      },
+      {
+        title: "CIISA RH",
+        image: CIISARH,
+        link: "https://wa.me/50662208785?text=Hola",
+      },
+      {
+        title: "SyJ Leathers",
+        image: syj,
+        link: "https://wa.me/50671311252?text=Hola",
+      },
+      {
+        title: "Alimentos Prosalud",
+        image: prosalud,
+        link: "https://wa.me/50670787074?text=Hola",
+      },
+      {
+        title: "Puma Colombia",
+        image: puma,
+        link: "https://wa.me/573176689977?text=Hola",
+      },
+      {
+        title: "Plaza Tempo",
+        image: tempo,
+        link: "https://wa.me/50660124414?text=Hola",
+      }
     ],
   },
   Testimonials: {
@@ -215,6 +337,31 @@ export const content = {
     subtitle: "GET IN TOUCH",
     social_media: [
       {
+        text: "Whatsapp",
+        icon: BiLogoWhatsapp,
+        link: "https://wa.me/message/2AGAMZCPXIXNG1",
+      },
+      {
+        text: "Linkedin",
+        icon: BiLogoLinkedin,
+        link: "https://www.linkedin.com/in/henmascript",
+      },
+      {
+        text: "Facebook",
+        icon: AiOutlineFacebook,
+        link: "https://www.facebook.com/HenmaScriptAI",
+      },
+      {
+        text: "Github",
+        icon: BiLogoGithub,
+        link: "https://github.com/henmanuel",
+      },
+      {
+        text: "Instagram",
+        icon: BsInstagram,
+        link: "https://www.instagram.com/henmascript",
+      },
+      {
         text: "henmanuelvargas@gmail.com",
         icon: GrMail,
         link: "mailto:henmanuelvargas@gmail.com",
@@ -222,7 +369,7 @@ export const content = {
       {
         text: "+506 7271 6641",
         icon: MdCall,
-        link: "https://wa.me/message/2AGAMZCPXIXNG1",
+        link: "tel:50672716641 https://wa.me/message/2AGAMZCPXIXNG1",
       }
     ],
   },
