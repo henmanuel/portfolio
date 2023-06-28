@@ -1,8 +1,8 @@
 // import content
 import { useEffect } from "react";
-import { content } from "../Content";
+import { content_ES } from "../Content_ES";
 const Hero = () => {
-  const { hero } = content;
+  const { hero } = content_ES;
 
   return (
     <section id="home" className="overflow-hidden">

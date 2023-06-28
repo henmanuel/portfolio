@@ -1,15 +1,13 @@
-import { content } from "../Content";
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
-
 import { Pagination } from "swiper";
+import { content_ES } from "../Content_ES";
+import PriceLevels from "./PriceLevels";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 const Projects = () => {
-  const { Projects } = content;
+  const { Projects, PriceLeveles } = content_ES;
+
   return (
     <section className="bg-bg_light_primary" id="projects">
       <div className="md:container px-5 pt-14 min-h-screen flex flex-col justify-between">
@@ -60,6 +58,8 @@ const Projects = () => {
           </Swiper>
         </div>
       </div>
+
+      <PriceLevels priceLevels={PriceLeveles} />
     </section>
   );
 };

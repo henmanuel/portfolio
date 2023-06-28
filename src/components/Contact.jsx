@@ -1,10 +1,10 @@
 import { createElement, useRef } from "react";
-import { content } from "../Content";
+import { content_ES } from "../Content_ES";
 import emailjs from "@emailjs/browser";
 import toast, { Toaster } from "react-hot-toast";
 
 const Contact = () => {
-  const { Contact } = content;
+  const { Contact } = content_ES;
   const form = useRef();
 
   // Sending Email

@@ -1,7 +1,7 @@
-import { content } from "../Content";
+import { content_ES } from "../Content_ES";
 
 const Services = () => {
-  const { services } = content;
+  const { services } = content_ES;
   return (
     <section id="services">
       <div className="md:container px-5 py-14">

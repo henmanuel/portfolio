@@ -1,6 +1,6 @@
 // import content
 import { createElement, useState } from "react";
-import { content } from "../Content";
+import { content_ES } from "../Content_ES";
 // import modal package
 import Modal from "react-modal";
 
@@ -22,7 +22,7 @@ const customStyles = {
 Modal.setAppElement("#root");
 
 const Skills = () => {
-  const { skills } = content;
+  const { skills } = content_ES;
   const [modalIsOpen, setIsOpen] = useState(false);
   const [selectSkill, setSelectSkill] = useState(null);
 

@@ -1,4 +1,4 @@
-import { content } from "../Content";
+import { content_ES } from "../Content_ES";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -10,7 +10,7 @@ import { Pagination } from "swiper";
 import { useState } from "react";
 
 const Testimonials = () => {
-  const { Testimonials } = content;
+  const { Testimonials } = content_ES;
   const [activeIndex, setActiveIndex] = useState(0);
   return (
     <section>

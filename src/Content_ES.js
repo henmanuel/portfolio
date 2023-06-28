@@ -59,126 +59,125 @@ import { BiUser } from "react-icons/bi";
 import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
 import { MdOutlinePermContactCalendar } from "react-icons/md";
 
-export const content = {
+export const content_ES = {
   nav: [
     {
-      link: "#home",
+      link: "#inicio",
       icon: TbSmartHome,
     },
     {
-      link: "#skills",
+      link: "#habilidades",
       icon: BiUser,
     },
     {
-      link: "#services",
+      link: "#servicios",
       icon: RiServiceLine,
     },
     {
-      link: "#projects",
+      link: "#proyectos",
       icon: RiProjectorLine,
     },
     {
-      link: "#contact",
+      link: "#contacto",
       icon: MdOutlinePermContactCalendar,
     },
   ],
   hero: {
-    title: "Software Architect",
+    title: "Arquitecto de Software",
     firstName: "Henmanuel",
     LastName: "Vargas",
-    btnText: "Hire Me",
+    btnText: "Contrátame",
     image: Hero_person,
     hero_content: [
       {
         count: "8+",
-        text: "Years of Expense in Software Architecture",
+        text: "Años de experiencia en arquitectura de software",
       },
       {
         count: "20+",
-        text: "Projects Worked in my career",
+        text: "Proyectos trabajados en mi carrera",
       },
     ],
   },
   skills: {
-    title: "Skills",
-    subtitle: "MY TOP SKILLS",
+    title: "Habilidades",
+    subtitle: "MIS MEJORES HABILIDADES",
     skills_content: [
       {
         name: "JavaScript",
-        para: "Experienced JavaScript Developer Empowering Dynamic Web Solutions",
+        para: "Desarrollador de JavaScript con experiencia que potencia soluciones web dinámicas",
         logo: javascript,
-        list: "With a strong background in JavaScript, I am equipped to develop innovative and scalable solutions in the field of web development. My in-depth knowledge of this programming language allows me to create interactive and dynamic applications, providing an exceptional user experience. I constantly stay updated on the latest trends and practices in JavaScript to deliver high-quality results and meet the specific needs of my clients.",
+        list: "Con una sólida formación en JavaScript, estoy equipado para desarrollar soluciones innovadoras y escalables en el campo del desarrollo web. Mi conocimiento profundo de este lenguaje de programación me permite crear aplicaciones interactivas y dinámicas, proporcionando una experiencia de usuario excepcional. Me mantengo constantemente actualizado sobre las últimas tendencias y prácticas en JavaScript para entregar resultados de alta calidad y satisfacer las necesidades específicas de mis clientes.",
       },
       {
         name: "TypeScript",
-        para: "Skilled TypeScript Developer Enhancing Scalable and Type-Safe Solutions",
+        para: "Desarrollador competente de TypeScript que mejora las soluciones escalables y seguras de tipo",
         logo: typescript,
-        list: "With extensive experience in TypeScript, I excel in developing robust and type-safe applications that enhance scalability and maintainability. Leveraging my expertise in TypeScript, I ensure the codebase is more structured and less prone to errors, resulting in efficient development and improved software quality. My proficiency in TypeScript enables me to create scalable web solutions with enhanced code maintainability, providing a seamless user experience.",
+        list: "Con amplia experiencia en TypeScript, destaco en el desarrollo de aplicaciones robustas y seguras de tipo que mejoran la escalabilidad y mantenibilidad. Aprovechando mi experiencia en TypeScript, me aseguro de que la base de código sea más estructurada y menos propensa a errores, lo que resulta en un desarrollo eficiente y una mejora en la calidad del software. Mi competencia en TypeScript me permite crear soluciones web escalables con un mantenimiento de código mejorado, proporcionando una experiencia de usuario sin interrupciones.",
       },
       {
         name: "Python",
-        para: "Proficient Python Developer Delivering Efficient and Versatile Solutions",
+        para: "Desarrollador de Python competente que entrega soluciones eficientes y versátiles",
         logo: python,
-        list: "With extensive experience in Python, I am proficient in developing efficient and versatile solutions that meet diverse project requirements. Leveraging the power of Python, I create robust and scalable applications that streamline workflows and drive productivity. My expertise in Python allows me to leverage its extensive library ecosystem, enabling me to develop solutions with enhanced functionality and performance. Whether it's web development, data analysis, or automation, I leverage Python to deliver high-quality and effective solutions.",
+        list: "Con amplia experiencia en Python, soy competente en el desarrollo de soluciones eficientes y versátiles que cumplen con los diversos requisitos del proyecto. Aprovechando el poder de Python, creo aplicaciones robustas y escalables que optimizan los flujos de trabajo y aumentan la productividad. Mi experiencia en Python me permite aprovechar su extenso ecosistema de bibliotecas, lo que me permite desarrollar soluciones con una funcionalidad y rendimiento mejorados. Ya sea desarrollo web, análisis de datos o automatización, utilizo Python para entregar soluciones de alta calidad y efectivas.",
       },
       {
         name: "AWS",
-        para: "AWS Cloud Architect Empowering Scalable and Secure Solutions",
+        para: "Arquitecto de la nube AWS que potencia soluciones escalables y seguras",
         logo: aws,
-        list: "As a skilled AWS Cloud Architect, I specialize in designing and implementing scalable and secure cloud solutions. Leveraging the power of Amazon Web Services (AWS), I help organizations optimize their infrastructure, reduce costs, and achieve high availability. With expertise in AWS services such as EC2, S3, Lambda, and CloudFormation, I architect robust and scalable cloud environments tailored to the unique requirements of each project. By implementing best practices in security, monitoring, and automation, I ensure data protection and efficient resource utilization. Collaborating with cross-functional teams, I provide strategic guidance and technical leadership throughout the cloud migration and deployment processes. With a focus on innovation and continuous improvement, I empower businesses to leverage the full potential of AWS and drive their digital transformation journey."
+        list: "Como un experto arquitecto de la nube AWS, me especializo en diseñar e implementar soluciones en la nube escalables y seguras. Aprovechando el poder de Amazon Web Services (AWS), ayudo a las organizaciones a optimizar su infraestructura, reducir costos y lograr una alta disponibilidad. Con experiencia en servicios de AWS como EC2, S3, Lambda y CloudFormation, arquitecto entornos en la nube robustos y escalables adaptados a los requisitos únicos de cada proyecto. Al implementar las mejores prácticas en seguridad, monitoreo y automatización, aseguro la protección de los datos y una utilización eficiente de los recursos. Colaborando con equipos multifuncionales, proporciono orientación estratégica y liderazgo técnico a lo largo de los procesos de migración a la nube y despliegue. Con un enfoque en innovación y mejora continua, empodero a las empresas para que aprovechen todo el potencial de AWS y dirijan su viaje de transformación digital."
       },
       {
         name: "Node js",
-        para: "Node.js Developer Driving Scalable and High-Performing Applications",
+        para: "Desarrollador de Node.js que impulsa aplicaciones escalables y de alto rendimiento",
         logo: nodejs,
-        list: "As a skilled Node.js developer, I specialize in building scalable and high-performing applications. Leveraging the power of Node.js, I design and develop server-side solutions that handle large volumes of concurrent requests and deliver optimal performance. With expertise in Node.js frameworks like Express and Nest.js, I create robust APIs and microservices that power modern web and mobile applications. By utilizing the event-driven, non-blocking architecture of Node.js, I ensure seamless and efficient communication between different components of the application, resulting in enhanced speed and responsiveness."
+        list: "Como desarrollador experto en Node.js, me especializo en la construcción de aplicaciones escalables y de alto rendimiento. Aprovechando el poder de Node.js, diseño y desarrollo soluciones del lado del servidor que manejan grandes volúmenes de solicitudes concurrentes y proporcionan un rendimiento óptimo. Con experiencia en frameworks de Node.js como Express y Nest.js, creo robustas APIs y microservicios que alimentan modernas aplicaciones web y móviles. Utilizando la arquitectura dirigida por eventos y no bloqueante de Node.js, aseguro una comunicación fluida y eficiente entre los diferentes componentes de la aplicación, lo que resulta en una mayor velocidad y capacidad de respuesta."
       },
       {
         name: "Figma",
-        para: "Figma Designer Crafting Stunning and User-Centric Experiences",
+        para: "Diseñador de Figma que crea experiencias impresionantes y centradas en el usuario",
         logo: figma,
-        list: "As a talented Figma designer, I specialize in creating stunning and user-centric experiences. Leveraging the powerful features of Figma, I design intuitive and visually appealing interfaces for web and mobile applications. With a deep understanding of user experience (UX) principles, I create seamless workflows, captivating visuals, and interactive prototypes that bring ideas to life. Collaborating closely with development teams, I ensure smooth handoffs and pixel-perfect implementations. By utilizing Figma's collaborative features, I foster effective communication and streamline the design process, resulting in efficient and visually captivating products."
+        list: "Como talentoso diseñador de Figma, me especializo en la creación de experiencias impresionantes y centradas en el usuario. Aprovechando las poderosas características de Figma, diseño interfaces intuitivas y visualmente atractivas para aplicaciones web y móviles. Con un profundo entendimiento de los principios de la experiencia del usuario (UX), creo flujos de trabajo fluidos, visuales cautivadores y prototipos interactivos que dan vida a las ideas. Colaborando estrechamente con los equipos de desarrollo, aseguro transiciones suaves y implementaciones perfectas. Al utilizar las características colaborativas de Figma, fomento una comunicación efectiva y optimizo el proceso de diseño, lo que resulta en productos eficientes y visualmente cautivadores."
       },
       {
         name: "React js",
-        para: "React.js Developer Building Powerful and Dynamic Web Applications",
+        para: "Desarrollador de React.js que construye aplicaciones web potentes y dinámicas",
         logo: reactjs,
-        list: "As a skilled React.js developer, I specialize in building powerful and dynamic web applications. With expertise in React.js, I leverage its component-based architecture to create highly responsive and interactive user interfaces. Through the use of state management libraries like Redux or MobX, I ensure seamless data flow and efficient application performance. With a deep understanding of React.js best practices, I optimize code for reusability, maintainability, and scalability. Collaborating closely with cross-functional teams, I contribute to the development of robust and feature-rich applications that deliver exceptional user experiences."
-      }
-      ,
+        list: "Como desarrollador experto en React.js, me especializo en la construcción de aplicaciones web potentes y dinámicas. Con experiencia en React.js, aprovecho su arquitectura basada en componentes para crear interfaces de usuario altamente receptivas e interactivas. A través del uso de bibliotecas de administración de estado como Redux o MobX, aseguro un flujo de datos sin problemas y un rendimiento eficiente de la aplicación. Con un profundo entendimiento de las mejores prácticas de React.js, optimizo el código para la reutilización, mantenibilidad y escalabilidad. Colaborando estrechamente con equipos multifuncionales, contribuyo al desarrollo de aplicaciones robustas y ricas en características que ofrecen experiencias excepcionales al usuario."
+      },
       {
         name: "React Native",
-        para: "React Native Developer Building Cross-Platform Mobile Applications",
+        para: "Desarrollador de React Native que construye aplicaciones móviles multiplataforma",
         logo: reactjs,
-        list: "As an experienced React Native developer, I specialize in building cross-platform mobile applications. Leveraging the power of React Native, I create high-performance and visually appealing apps that work seamlessly on both iOS and Android platforms. With a deep understanding of React Native's component-based architecture, I develop reusable UI components that ensure consistency and efficiency across different devices. By utilizing popular libraries and tools like Redux and React Navigation, I implement robust state management and smooth navigation within the app. Collaborating with designers and backend developers, I deliver intuitive and user-friendly mobile experiences that meet the unique needs of clients and end-users."
+        list: "Como desarrollador experto en React Native, me especializo en la construcción de aplicaciones móviles multiplataforma. Aprovechando el poder de React Native, creo aplicaciones de alto rendimiento y visualmente atractivas que funcionan de manera fluida tanto en plataformas iOS como Android. Con un profundo entendimiento de la arquitectura basada en componentes de React Native, desarrollo componentes de interfaz de usuario reutilizables que garantizan consistencia y eficiencia en diferentes dispositivos. Utilizando bibliotecas y herramientas populares como Redux y React Navigation, implemento una robusta administración de estado y una navegación fluida dentro de la aplicación. Al colaborar con diseñadores y desarrolladores de backend, entrego experiencias móviles intuitivas y amigables para el usuario que satisfacen las necesidades únicas de los clientes y usuarios finales."
       }
     ],
     icon: MdArrowForward,
   },
   services: {
-    title: "Services",
-    subtitle: "WHAT I OFFER",
+    title: "Servicios",
+    subtitle: "LO QUE OFREZCO",
     service_content: [
       {
-        title: "Web and Mobile Development",
-        para: "Boost your online presence with customized, high-performance websites and mobile applications. I use technologies like React.js, Angular, and React Native to provide intuitive and engaging solutions that captivate your users.",
+        title: "Desarrollo Web y Móvil",
+        para: "Impulse su presencia en línea con sitios web personalizados y aplicaciones móviles de alto rendimiento. Utilizo tecnologías como React.js, Angular y React Native para proporcionar soluciones intuitivas y atractivas que cautivan a sus usuarios.",
         logo: services_logo1,
       },
       {
-        title: "Cloud Architecture and Automation",
-        para: "Optimize your technology infrastructure by migrating to the cloud and automating key processes. As an AWS expert, I design scalable and secure architectures, while task automation saves time and enhances your business efficiency.",
+        title: "Arquitectura en la Nube y Automatización",
+        para: "Optimice su infraestructura tecnológica migrando a la nube y automatizando procesos clave. Como experto en AWS, diseño arquitecturas escalables y seguras, mientras que la automatización de tareas ahorra tiempo y mejora la eficiencia de su negocio.",
         logo: cloud,
       },
       {
-        title: "User Interface Design and Project Management",
-        para: "Stand out with visually appealing and functional designs that deliver an exceptional user experience. I leverage tools like Figma to create intuitive interfaces, and with my agile project management approach, I ensure successful deliveries and effective communication.",
+        title: "Diseño de Interfaz de Usuario y Gestión de Proyectos",
+        para: "Destaque con diseños atractivos y funcionales que brindan una experiencia de usuario excepcional. Utilizo herramientas como Figma para crear interfaces intuitivas y con mi enfoque de gestión de proyectos ágil, aseguro entregas exitosas y comunicación efectiva.",
         logo: services_logo2,
       },
     ],
   },
-  Projects: {
-    title: "Projects",
-    subtitle: "MY CONTRIBUTIONS",
+  Proyectos: {
+    title: "Proyectos",
+    subtitle: "MIS CONTRIBUCIONES",
     image: person_project,
     project_content: [
       {
@@ -293,47 +292,47 @@ export const content = {
       }
     ],
   },
-  Testimonials: {
-    title: "Testimonials",
-    subtitle: "MY CLIENT REVIEWS",
+  Testimonios: {
+    title: "Testimonios",
+    subtitle: "LAS RESEÑAS DE MIS CLIENTES",
     testimonials_content: [
       {
         review:
-          "“Henmanuel's expertise as an AWS Cloud Architect surpassed our expectations. Highly recommended for delivering scalable and secure cloud solutions.”",
+          "“La experiencia de Henmanuel como Arquitecto de Nube AWS superó nuestras expectativas. Muy recomendado para entregar soluciones en la nube seguras y escalables.”",
         img: avatar1,
         name: "JOHNNY GUZMAN",
       },
       {
         review:
-          "“Henmanuel's proficiency in React Native impressed us. Highly recommended for top-notch solutions in mobile app development.”",
+          "“La competencia de Henmanuel en React Native nos impresionó. Muy recomendado para soluciones de primera calidad en el desarrollo de aplicaciones móviles.”",
         img: avatar2,
         name: "Alex Din",
       },
       {
         review:
-          "“We are grateful for Henmanuel's exceptional design skills in Figma. Highly recommended for visually stunning and user-friendly designs.”",
+          "“Estamos agradecidos por las excepcionales habilidades de diseño de Henmanuel en Figma. Muy recomendado para diseños visualmente impresionantes y fáciles de usar.”",
         img: avatar3,
         name: "Johnny",
       },
       {
         review:
-          "“Henmanuel's expertise in TypeScript elevated our web development projects. Highly recommended for clean and scalable coding.”",
+          "“La experiencia de Henmanuel en TypeScript elevó nuestros proyectos de desarrollo web. Muy recomendado para una codificación limpia y escalable.”",
         img: avatar4,
         name: "ROBBIN",
       },
     ],
   },
-  Hireme: {
-    title: "Hire Me",
-    subtitle: "FOR YOUR PROJECTS",
+  Contratame: {
+    title: "Contrátame",
+    subtitle: "PARA TUS PROYECTOS",
     image1: Hireme_person,
     image2: Hireme_person2,
-    para: "I'm Henmanuel, a passionate solutions architect and developer with extensive experience in technologies such as AWS, React Native, Figma, TypeScript, and Node.js. I offer high-quality, efficient, and creative technological solutions to help you achieve your goals. If you're looking for exceptional results, don't hesitate to contact me. I'm ready to take your projects to the next level. Let's work together to achieve the success you're looking for in your technological projects!",
-    btnText: "Hire Me",
+    para: "Soy Henmanuel, un apasionado arquitecto de soluciones y desarrollador con amplia experiencia en tecnologías como AWS, React Native, Figma, TypeScript y Node.js. Ofrezco soluciones tecnológicas creativas, eficientes y de alta calidad para ayudarte a alcanzar tus objetivos. Si buscas resultados excepcionales, no dudes en contactarme. Estoy listo para llevar tus proyectos al siguiente nivel. ¡Trabajemos juntos para lograr el éxito que buscas en tus proyectos tecnológicos!",
+    btnText: "Contrátame",
   },
-  Contact: {
-    title: "Contect Me",
-    subtitle: "GET IN TOUCH",
+  Contacto: {
+    title: "Contáctame",
+    subtitle: "MANTENTE EN CONTACTO",
     social_media: [
       {
         text: "Whatsapp",
@@ -372,12 +371,12 @@ export const content = {
       }
     ],
   },
-  Footer: {
-    text: "All © Copy Right Reserved 2023",
+  PieDePagina: {
+    text: "Todos los derechos reservados © 2023",
   },
-  PriceLeveles: {
-    title: "Price Leveles",
-    subtitle: "CHOOSE YOUR PRICE",
+  NivelesDePrecio: {
+    title: "Niveles De Precio",
+    subtitle: "ELIGE TU PRECIO",
     plans: [
       {
         title: "Soporte",

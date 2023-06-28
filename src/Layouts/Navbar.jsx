@@ -1,10 +1,10 @@
 import { useState } from "react";
-import { content } from "../Content";
+import { content_ES } from "../Content_ES";
 import { HiMenuAlt2 } from "react-icons/hi";
 import { createElement } from "react";
 
 const Navbar = () => {
-  const { nav } = content;
+  const { nav } = content_ES;
   const [showMenu, setShowMenu] = useState(false);
   const [active, setActive] = useState(0);
 
