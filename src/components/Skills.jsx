@@ -63,9 +63,6 @@ const Skills = () => {
         <h2 className="title" data-aos="fade-down">
           {skills.title}
         </h2>
-        <h4 className="subtitle" data-aos="fade-down">
-          {skills.subtitle}
-        </h4>
         <br />
         <div className="flex flex-wrap gap-4 justify-center">
           {skills.skills_content.map((skill, i) => (

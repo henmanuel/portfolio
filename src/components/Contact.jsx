@@ -37,9 +37,6 @@ const Contact = () => {
         <h2 className="title !text-white" data-aos="fade-down">
           {Contact.title}
         </h2>
-        <h4 className="subtitle" data-aos="fade-down">
-          {Contact.subtitle}
-        </h4>
         <br />
         <div className="flex gap-10 md:flex-row flex-col">
           <form
@@ -60,7 +57,7 @@ const Contact = () => {
               type="email"
               name="user_email"
               pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
-              placeholder="Email Id"
+              placeholder="Email"
               required
               className="border border-slate-600 p-3 rounded"
             />

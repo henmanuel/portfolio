@@ -100,7 +100,7 @@ export const content_ES = {
     ],
   },
   skills: {
-    title: "Habilidades",
+    title: "Habilidades Técnicas",
     subtitle: "MIS MEJORES HABILIDADES",
     skills_content: [
       {
@@ -176,7 +176,7 @@ export const content_ES = {
     ],
   },
   Projects: {
-    title: "Proyectos",
+    title: "Proyectos y contribuciones",
     subtitle: "MIS CONTRIBUCIONES",
     image: person_project,
     project_content: [
@@ -293,7 +293,7 @@ export const content_ES = {
     ],
   },
   Testimonials: {
-    title: "Testimonios",
+    title: "Testimonios de mis clientes",
     subtitle: "LAS RESEÑAS DE MIS CLIENTES",
     testimonials_content: [
       {
@@ -323,7 +323,7 @@ export const content_ES = {
     ],
   },
   Hireme: {
-    title: "Contrátame",
+    title: "Permitame coolaborar",
     subtitle: "PARA TUS PROYECTOS",
     image1: Hireme_person,
     image2: Hireme_person2,
@@ -331,13 +331,13 @@ export const content_ES = {
     btnText: "Contrátame",
   },
   Contact: {
-    title: "Contáctame",
+    title: "Nos mantenemos en contacto",
     subtitle: "MANTENTE EN CONTACTO",
     social_media: [
       {
-        text: "Whatsapp",
-        icon: BiLogoWhatsapp,
-        link: "https://wa.me/message/2AGAMZCPXIXNG1",
+        text: "Github",
+        icon: BiLogoGithub,
+        link: "https://github.com/henmanuel",
       },
       {
         text: "Linkedin",
@@ -345,14 +345,9 @@ export const content_ES = {
         link: "https://www.linkedin.com/in/henmascript",
       },
       {
-        text: "Facebook",
-        icon: AiOutlineFacebook,
-        link: "https://www.facebook.com/HenmaScriptAI",
-      },
-      {
-        text: "Github",
-        icon: BiLogoGithub,
-        link: "https://github.com/henmanuel",
+        text: "Whatsapp",
+        icon: BiLogoWhatsapp,
+        link: "https://wa.me/message/2AGAMZCPXIXNG1",
       },
       {
         text: "Instagram",
@@ -360,14 +355,19 @@ export const content_ES = {
         link: "https://www.instagram.com/henmascript",
       },
       {
-        text: "henmanuelvargas@gmail.com",
-        icon: GrMail,
-        link: "mailto:henmanuelvargas@gmail.com",
+        text: "Facebook",
+        icon: AiOutlineFacebook,
+        link: "https://www.facebook.com/HenmaScriptAI",
       },
       {
         text: "+506 7271 6641",
         icon: MdCall,
         link: "tel:50672716641 https://wa.me/message/2AGAMZCPXIXNG1",
+      },
+      {
+        text: "henmanuelvargas@gmail.com",
+        icon: GrMail,
+        link: "mailto:henmanuelvargas@gmail.com",
       }
     ],
   },

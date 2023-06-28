@@ -12,9 +12,6 @@ const Hireme = () => {
         }}>
           {Hireme.title}
         </h2>
-        <h4 className="subtitle" data-aos="fade-down">
-          {Hireme.subtitle}
-        </h4>
         <br />
         <div className="flex items-center md:flex-row flex-col-reverse ">
           <img

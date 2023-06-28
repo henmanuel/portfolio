@@ -8,9 +8,6 @@ const Services = () => {
         <h2 className="title" data-aos="fade-down">
           {services.title}
         </h2>
-        <h4 className="subtitle" data-aos="fade-down">
-          {services.subtitle}
-        </h4>
         <br />
         <div className="flex gap-5 justify-between flex-wrap group">
           {services.service_content.map((content, i) => (
