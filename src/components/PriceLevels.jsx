@@ -9,6 +9,10 @@ const PriceLevels = ({ priceLevels }) => {
   return (
     <section>
       <div className="md:container px-5 pt-14">
+      <h2 className="title" data-aos="fade-down">
+          {priceLevels.title}
+        </h2>
+
         <Swiper
           direction={"horizontal"}
           pagination={{

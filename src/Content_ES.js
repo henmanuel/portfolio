@@ -375,8 +375,8 @@ export const content_ES = {
     text: "Todos los derechos reservados © 2023",
   },
   PriceLeveles: {
-    title: "Niveles De Precio",
-    subtitle: "ELIGE TU PRECIO",
+    title: "Paquestes de horas",
+    subtitle: "ELIGE TU NIVEL DE SERVICIO",
     plans: [
       {
         title: "Soporte",
