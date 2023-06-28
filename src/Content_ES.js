@@ -62,23 +62,23 @@ import { MdOutlinePermContactCalendar } from "react-icons/md";
 export const content_ES = {
   nav: [
     {
-      link: "#inicio",
+      link: "#home",
       icon: TbSmartHome,
     },
     {
-      link: "#habilidades",
+      link: "#skills",
       icon: BiUser,
     },
     {
-      link: "#servicios",
+      link: "#services",
       icon: RiServiceLine,
     },
     {
-      link: "#proyectos",
+      link: "#projects",
       icon: RiProjectorLine,
     },
     {
-      link: "#contacto",
+      link: "#contact",
       icon: MdOutlinePermContactCalendar,
     },
   ],
@@ -175,7 +175,7 @@ export const content_ES = {
       },
     ],
   },
-  Proyectos: {
+  Projects: {
     title: "Proyectos",
     subtitle: "MIS CONTRIBUCIONES",
     image: person_project,
@@ -292,7 +292,7 @@ export const content_ES = {
       }
     ],
   },
-  Testimonios: {
+  Testimonials: {
     title: "Testimonios",
     subtitle: "LAS RESEÑAS DE MIS CLIENTES",
     testimonials_content: [
@@ -322,7 +322,7 @@ export const content_ES = {
       },
     ],
   },
-  Contratame: {
+  Hireme: {
     title: "Contrátame",
     subtitle: "PARA TUS PROYECTOS",
     image1: Hireme_person,
@@ -330,7 +330,7 @@ export const content_ES = {
     para: "Soy Henmanuel, un apasionado arquitecto de soluciones y desarrollador con amplia experiencia en tecnologías como AWS, React Native, Figma, TypeScript y Node.js. Ofrezco soluciones tecnológicas creativas, eficientes y de alta calidad para ayudarte a alcanzar tus objetivos. Si buscas resultados excepcionales, no dudes en contactarme. Estoy listo para llevar tus proyectos al siguiente nivel. ¡Trabajemos juntos para lograr el éxito que buscas en tus proyectos tecnológicos!",
     btnText: "Contrátame",
   },
-  Contacto: {
+  Contact: {
     title: "Contáctame",
     subtitle: "MANTENTE EN CONTACTO",
     social_media: [
@@ -371,10 +371,10 @@ export const content_ES = {
       }
     ],
   },
-  PieDePagina: {
+  Footer: {
     text: "Todos los derechos reservados © 2023",
   },
-  NivelesDePrecio: {
+  PriceLeveles: {
     title: "Niveles De Precio",
     subtitle: "ELIGE TU PRECIO",
     plans: [
