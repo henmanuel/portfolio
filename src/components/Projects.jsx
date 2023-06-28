@@ -54,6 +54,8 @@ const Projects = () => {
             data-aos="fade-right"
             className="max-w-[35vw] min-w-[22rem]"
           />
+
+          <p>Uniendo AI y desarrollo, convierto ideas en soluciones digitales revolucionarias para la evolución empresarial eficiente</p>
         </div>
       </div>
 

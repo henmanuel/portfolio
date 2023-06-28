@@ -13,7 +13,7 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-      'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY'
+        'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY'
       )
       .then(
         (result) => {
@@ -41,16 +41,16 @@ const Contact = () => {
         <div className="flex gap-10 md:flex-row flex-col">
           <form
             ref={form}
-            onSubmit={sendEmail}
             data-aos="fade-up"
+            onSubmit={sendEmail}
             className="flex-1 flex flex-col gap-5"
           >
             {/* Input Name as same as email js templates values */}
             <input
+              required
               type="text"
               name="from_name"
               placeholder="Name"
-              required
               className="border border-slate-600 p-3 rounded"
             />
             <input
@@ -61,17 +61,11 @@ const Contact = () => {
               required
               className="border border-slate-600 p-3 rounded"
             />
-            <textarea
-              name="message"
-              placeholder="Message"
-              className="border border-slate-600 p-3 rounded h-44"
-              required
-            ></textarea>
             <button
               className="btn self-start
             bg-white text-dark_primary"
             >
-              Submit
+              Suscribirse
             </button>
           </form>
           <div className="flex-1 flex flex-col gap-5">

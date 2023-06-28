@@ -107,49 +107,49 @@ export const content_ES = {
         name: "JavaScript",
         para: "Desarrollador de JavaScript con experiencia que potencia soluciones web dinámicas",
         logo: javascript,
-        list: "Con una sólida formación en JavaScript, estoy equipado para desarrollar soluciones innovadoras y escalables en el campo del desarrollo web. Mi conocimiento profundo de este lenguaje de programación me permite crear aplicaciones interactivas y dinámicas, proporcionando una experiencia de usuario excepcional. Me mantengo constantemente actualizado sobre las últimas tendencias y prácticas en JavaScript para entregar resultados de alta calidad y satisfacer las necesidades específicas de mis clientes.",
+        list: "Como especialista en JavaScript, diseño soluciones web robustas y escalables, creando aplicaciones interactivas para una experiencia de usuario superior. Con un enfoque en las tendencias actuales, entrego resultados de alta calidad ajustados a las necesidades del cliente.",
       },
       {
         name: "TypeScript",
         para: "Desarrollador competente de TypeScript que mejora las soluciones escalables y seguras de tipo",
         logo: typescript,
-        list: "Con amplia experiencia en TypeScript, destaco en el desarrollo de aplicaciones robustas y seguras de tipo que mejoran la escalabilidad y mantenibilidad. Aprovechando mi experiencia en TypeScript, me aseguro de que la base de código sea más estructurada y menos propensa a errores, lo que resulta en un desarrollo eficiente y una mejora en la calidad del software. Mi competencia en TypeScript me permite crear soluciones web escalables con un mantenimiento de código mejorado, proporcionando una experiencia de usuario sin interrupciones.",
+        list: "Como experto en TypeScript, me enfoco en el desarrollo de aplicaciones seguras y robustas, mejorando la escalabilidad y la manejabilidad. Utilizo TypeScript para proporcionar una base de código estructurada y confiable, resultando en software de alta calidad y desarrollo eficiente. Mi habilidad en TypeScript permite la creación de soluciones web escalables y una experiencia de usuario fluida.",
       },
       {
         name: "Python",
         para: "Desarrollador de Python competente que entrega soluciones eficientes y versátiles",
         logo: python,
-        list: "Con amplia experiencia en Python, soy competente en el desarrollo de soluciones eficientes y versátiles que cumplen con los diversos requisitos del proyecto. Aprovechando el poder de Python, creo aplicaciones robustas y escalables que optimizan los flujos de trabajo y aumentan la productividad. Mi experiencia en Python me permite aprovechar su extenso ecosistema de bibliotecas, lo que me permite desarrollar soluciones con una funcionalidad y rendimiento mejorados. Ya sea desarrollo web, análisis de datos o automatización, utilizo Python para entregar soluciones de alta calidad y efectivas.",
+        list: "Como profesional con experiencia en Python, desarrollo soluciones versátiles y eficientes para una variedad de requisitos de proyecto. Utilizo Python para construir aplicaciones robustas y escalables que optimizan los flujos de trabajo y mejoran la productividad. Mi conocimiento de Python y su amplio ecosistema de bibliotecas me permite ofrecer soluciones con funcionalidades y rendimiento mejorados en desarrollo web, análisis de datos y automatización.",
       },
       {
         name: "AWS",
         para: "Arquitecto de la nube AWS que potencia soluciones escalables y seguras",
         logo: aws,
-        list: "Como un experto arquitecto de la nube AWS, me especializo en diseñar e implementar soluciones en la nube escalables y seguras. Aprovechando el poder de Amazon Web Services (AWS), ayudo a las organizaciones a optimizar su infraestructura, reducir costos y lograr una alta disponibilidad. Con experiencia en servicios de AWS como EC2, S3, Lambda y CloudFormation, arquitecto entornos en la nube robustos y escalables adaptados a los requisitos únicos de cada proyecto. Al implementar las mejores prácticas en seguridad, monitoreo y automatización, aseguro la protección de los datos y una utilización eficiente de los recursos. Colaborando con equipos multifuncionales, proporciono orientación estratégica y liderazgo técnico a lo largo de los procesos de migración a la nube y despliegue. Con un enfoque en innovación y mejora continua, empodero a las empresas para que aprovechen todo el potencial de AWS y dirijan su viaje de transformación digital."
+        list: "Como experto en AWS, diseño e implemento soluciones seguras y escalables en la nube. Utilizo servicios de AWS para optimizar la infraestructura, reducir costos y garantizar alta disponibilidad. Mediante prácticas de seguridad y automatización, aseguro la protección de datos y la eficiencia de los recursos. Mi objetivo es guiar a las empresas en su transformación digital utilizando todo el potencial de AWS. "
       },
       {
         name: "Node js",
         para: "Desarrollador de Node.js que impulsa aplicaciones escalables y de alto rendimiento",
         logo: nodejs,
-        list: "Como desarrollador experto en Node.js, me especializo en la construcción de aplicaciones escalables y de alto rendimiento. Aprovechando el poder de Node.js, diseño y desarrollo soluciones del lado del servidor que manejan grandes volúmenes de solicitudes concurrentes y proporcionan un rendimiento óptimo. Con experiencia en frameworks de Node.js como Express y Nest.js, creo robustas APIs y microservicios que alimentan modernas aplicaciones web y móviles. Utilizando la arquitectura dirigida por eventos y no bloqueante de Node.js, aseguro una comunicación fluida y eficiente entre los diferentes componentes de la aplicación, lo que resulta en una mayor velocidad y capacidad de respuesta."
+        list: "Como experto en Node.js, me dedico a construir aplicaciones de alto rendimiento y escalables. Mediante Node.js, desarrollo soluciones del lado del servidor que manejan grandes volúmenes de solicitudes y ofrecen rendimiento óptimo. Utilizo frameworks como Express y Nest.js para crear robustas APIs y microservicios, asegurando una comunicación fluida y eficiente entre los componentes de la aplicación, lo que resulta en mayor velocidad y capacidad de respuesta."
       },
       {
         name: "Figma",
         para: "Diseñador de Figma que crea experiencias impresionantes y centradas en el usuario",
         logo: figma,
-        list: "Como talentoso diseñador de Figma, me especializo en la creación de experiencias impresionantes y centradas en el usuario. Aprovechando las poderosas características de Figma, diseño interfaces intuitivas y visualmente atractivas para aplicaciones web y móviles. Con un profundo entendimiento de los principios de la experiencia del usuario (UX), creo flujos de trabajo fluidos, visuales cautivadores y prototipos interactivos que dan vida a las ideas. Colaborando estrechamente con los equipos de desarrollo, aseguro transiciones suaves y implementaciones perfectas. Al utilizar las características colaborativas de Figma, fomento una comunicación efectiva y optimizo el proceso de diseño, lo que resulta en productos eficientes y visualmente cautivadores."
+        list: "Como diseñador hábil en Figma, me dedico a crear experiencias de usuario excepcionales. Usando Figma, diseño interfaces intuitivas y atractivas para aplicaciones web y móviles. Con un profundo entendimiento de UX, creo flujos de trabajo fluidos y prototipos interactivos que dan vida a las ideas. Colaboro estrechamente con equipos de desarrollo para asegurar transiciones suaves y fomento una comunicación eficaz para optimizar el proceso de diseño."
       },
       {
         name: "React js",
         para: "Desarrollador de React.js que construye aplicaciones web potentes y dinámicas",
         logo: reactjs,
-        list: "Como desarrollador experto en React.js, me especializo en la construcción de aplicaciones web potentes y dinámicas. Con experiencia en React.js, aprovecho su arquitectura basada en componentes para crear interfaces de usuario altamente receptivas e interactivas. A través del uso de bibliotecas de administración de estado como Redux o MobX, aseguro un flujo de datos sin problemas y un rendimiento eficiente de la aplicación. Con un profundo entendimiento de las mejores prácticas de React.js, optimizo el código para la reutilización, mantenibilidad y escalabilidad. Colaborando estrechamente con equipos multifuncionales, contribuyo al desarrollo de aplicaciones robustas y ricas en características que ofrecen experiencias excepcionales al usuario."
+        list: "Como especialista en React.js, me enfoco en la construcción de aplicaciones web dinámicas y poderosas. Utilizando React.js, creo interfaces de usuario responsivas e interactivas, y mediante bibliotecas de gestión de estado como Redux o MobX, garantizo un flujo de datos óptimo y un rendimiento eficiente de la aplicación. Mis conocimientos en React.js me permiten optimizar el código para reutilización, mantenibilidad y escalabilidad, contribuyendo al desarrollo de aplicaciones robustas que ofrecen experiencias de usuario excepcionales."
       },
       {
         name: "React Native",
         para: "Desarrollador de React Native que construye aplicaciones móviles multiplataforma",
         logo: reactjs,
-        list: "Como desarrollador experto en React Native, me especializo en la construcción de aplicaciones móviles multiplataforma. Aprovechando el poder de React Native, creo aplicaciones de alto rendimiento y visualmente atractivas que funcionan de manera fluida tanto en plataformas iOS como Android. Con un profundo entendimiento de la arquitectura basada en componentes de React Native, desarrollo componentes de interfaz de usuario reutilizables que garantizan consistencia y eficiencia en diferentes dispositivos. Utilizando bibliotecas y herramientas populares como Redux y React Navigation, implemento una robusta administración de estado y una navegación fluida dentro de la aplicación. Al colaborar con diseñadores y desarrolladores de backend, entrego experiencias móviles intuitivas y amigables para el usuario que satisfacen las necesidades únicas de los clientes y usuarios finales."
+        list: "Como experto en React Native, desarrollo aplicaciones móviles multiplataforma eficientes, visuales y consistentes, utilizando herramientas como Redux y React Navigation para una gestión de estado sólida y navegación fluida, entregando experiencias móviles centradas en el usuario."
       }
     ],
     icon: MdArrowForward,
