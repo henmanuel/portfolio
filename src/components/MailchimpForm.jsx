@@ -32,7 +32,7 @@ const MailchimpForm = () => {
     left: '-5000px',
   };
 
-  const submitButtonStyles = {
+  const submitStyles = {
     margin: '0px auto',
   };
 
@@ -52,17 +52,17 @@ const MailchimpForm = () => {
           <div id="mc_embed_signup_scroll">
             <h2>Suscribirse</h2>
             <div className="indicates-required">
-              <span className="asterisk">*</span> indicates required
+              <span className="asterisk">*</span> indica campos obligatorios
             </div>
             <div className="mc-field-group">
               <label htmlFor="mce-FNAME" style={labelStyles}>
-                Name <span className="asterisk">*</span>
+                Nombre <span className="asterisk">*</span>
               </label>
               <input type="text" name="FNAME" className="required text" id="mce-FNAME" required value="" />
             </div>
             <div className="mc-field-group">
               <label htmlFor="mce-EMAIL" style={labelStyles}>
-                Email Address <span className="asterisk">*</span>
+                Dirección de correo electrónico <span className="asterisk">*</span>
               </label>
               <input type="email" name="EMAIL" className="required email" id="mce-EMAIL" required value="" />
             </div>
@@ -96,10 +96,10 @@ const MailchimpForm = () => {
               </div>
               <div className="content__gdprLegal">
                 <p>
-                  We use Mailchimp as our marketing platform. By clicking below to subscribe, you acknowledge that your
-                  information will be transferred to Mailchimp for processing.{' '}
+                  Utilizamos Mailchimp como plataforma de marketing. Al hacer clic a continuación para suscribirte,
+                  reconoces que tu información se transferirá a Mailchimp para su procesamiento.{' '}
                   <a href="https://mailchimp.com/legal/terms" target="_blank">
-                    Learn more about Mailchimp's privacy practices here.
+                    Obtén más información sobre las prácticas de privacidad de Mailchimp aquí.
                   </a>
                 </p>
               </div>
@@ -113,8 +113,15 @@ const MailchimpForm = () => {
             </div>
             <div className="optionalParent">
               <div className="clear foot">
-                <input type="submit" name="subscribe" id="mc-embedded-subscribe" className="button" value="Subscribe" style={submitButtonStyles} />
-                <p className="brandingLogo">
+                <input
+                  type="submit"
+                  name="subscribe"
+                  id="mc-embedded-subscribe"
+                  className="button"
+                  value="Suscribirse"
+                  style={submitStyles}
+                />
+                <p className="brandingLogo" style={submitStyles}>
                   <a href="http://eepurl.com/iuAjvY" title="Mailchimp - email marketing made easy and fun">
                     <img
                       src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg"
