@@ -11,29 +11,35 @@ const MailchimpForm = () => {
 
   const labelStyles = {
     fontWeight: 'normal',
+    color: '#fff',
   };
 
   const inputStyles = {
     display: 'inline',
     width: 'auto',
     marginRight: '10px',
+    color: '#fff',
   };
 
   const errorResponseStyles = {
     display: 'none',
+    color: '#fff',
   };
 
   const successResponseStyles = {
     display: 'none',
+    color: '#fff',
   };
 
   const hiddenInputStyles = {
     position: 'absolute',
     left: '-5000px',
+    color: '#fff',
   };
 
   const submitStyles = {
     margin: '0px auto',
+    color: '#fff',
   };
 
   return (
@@ -50,52 +56,52 @@ const MailchimpForm = () => {
           noValidate
         >
           <div id="mc_embed_signup_scroll">
-            <h2>Suscribirse</h2>
-            <div className="indicates-required">
+            <h2 style={{ color: '#fff' }}>Suscribirse</h2>
+            <div className="indicates-required" style={{ color: '#fff' }}>
               <span className="asterisk">*</span> indica campos obligatorios
             </div>
             <div className="mc-field-group">
               <label htmlFor="mce-FNAME" style={labelStyles}>
                 Nombre <span className="asterisk">*</span>
               </label>
-              <input type="text" name="FNAME" className="required text" id="mce-FNAME" required value="" />
+              <input type="text" name="FNAME" className="required text" id="mce-FNAME" required value="" style={inputStyles} />
             </div>
             <div className="mc-field-group">
               <label htmlFor="mce-EMAIL" style={labelStyles}>
                 Dirección de correo electrónico <span className="asterisk">*</span>
               </label>
-              <input type="email" name="EMAIL" className="required email" id="mce-EMAIL" required value="" />
+              <input type="email" name="EMAIL" className="required email" id="mce-EMAIL" required value="" style={inputStyles} />
             </div>
             <div className="mc-field-group">
               <label htmlFor="mce-PHONE" style={labelStyles}>
                 Whatsapp
               </label>
-              <input type="text" name="PHONE" className="REQ_CSS" id="mce-PHONE" value="" />
+              <input type="text" name="PHONE" className="REQ_CSS" id="mce-PHONE" value="" style={inputStyles} />
             </div>
             <div id="mergeRow-gdpr" className="mergeRow gdpr-mergeRow content__gdprBlock mc-field-group">
               <div className="content__gdpr">
-                <label>Permisos de Marketing</label>
-                <p>
+                <label style={{ color: '#fff' }}>Permisos de Marketing</label>
+                <p style={{ color: '#fff' }}>
                   Por favor, selecciona todas las formas en las que te gustaría recibir noticias de HenmaScript:
                 </p>
                 <fieldset className="mc_fieldset gdprRequired mc-field-group" name="interestgroup_field">
                   <label className="checkbox subfield" htmlFor="gdpr1260">
                     <input type="checkbox" id="gdpr_1260" name="gdpr[1260]" className="gdpr" value="Y" />
-                    <span>Email</span>
+                    <span style={{ color: '#fff' }}>Email</span>
                   </label>
                   <label className="checkbox subfield" htmlFor="gdpr1261">
                     <input type="checkbox" id="gdpr_1261" name="gdpr[1261]" className="gdpr" value="Y" />
-                    <span>Whatsapp</span>
+                    <span style={{ color: '#fff' }}>Whatsapp</span>
                   </label>
                 </fieldset>
-                <p>
+                <p style={{ color: '#fff' }}>
                   Puedes cancelar la suscripción en cualquier momento haciendo clic en el enlace ubicado en el pie de
                   página de nuestros correos electrónicos. Para obtener más información sobre nuestras prácticas de
                   privacidad, visita nuestro sitio web.
                 </p>
               </div>
               <div className="content__gdprLegal">
-                <p>
+                <p style={{ color: '#fff' }}>
                   Utilizamos Mailchimp como plataforma de marketing. Al hacer clic a continuación para suscribirte,
                   reconoces que tu información se transferirá a Mailchimp para su procesamiento.{' '}
                   <a href="https://mailchimp.com/legal/terms" target="_blank">
