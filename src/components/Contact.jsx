@@ -1,6 +1,7 @@
-import { createElement, useRef } from "react";
-import { content_ES } from "../Content_ES";
 import emailjs from "@emailjs/browser";
+import { content_ES } from "../Content_ES";
+import MailchimpForm from "./MailchimpForm";
+import { createElement, useRef } from "react";
 import toast, { Toaster } from "react-hot-toast";
 
 const Contact = () => {
@@ -39,35 +40,7 @@ const Contact = () => {
         </h2>
         <br />
         <div className="flex gap-10 md:flex-row flex-col">
-          <form
-            ref={form}
-            data-aos="fade-up"
-            onSubmit={sendEmail}
-            className="flex-1 flex flex-col gap-5"
-          >
-            {/* Input Name as same as email js templates values */}
-            <input
-              required
-              type="text"
-              name="from_name"
-              placeholder="Name"
-              className="border border-slate-600 p-3 rounded"
-            />
-            <input
-              type="email"
-              name="user_email"
-              pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
-              placeholder="Email"
-              required
-              className="border border-slate-600 p-3 rounded"
-            />
-            <button
-              className="btn self-start
-            bg-white text-dark_primary"
-            >
-              Suscribirse
-            </button>
-          </form>
+          <MailchimpForm/>
           <div className="flex-1 flex flex-col gap-5">
             {Contact.social_media.map((content, i) => (
               <div
