@@ -1,6 +1,6 @@
 import React from 'react';
 
-const MailchimpForm = () => {
+const MailchimpForm = ({ form }) => {
     const labelStyles = {
         fontWeight: 'normal',
     };
@@ -23,6 +23,7 @@ const MailchimpForm = () => {
             <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css" />
             <div id="mc_embed_signup">
                 <form
+                    ref={form}
                     action="https://henmanuel.us21.list-manage.com/subscribe/post?u=44cab78f72330593e7fa3daf7&amp;id=80d8e0f76a&amp;f_id=009cd5e6f0"
                     method="post"
                     id="mc-embedded-subscribe-form"
@@ -45,7 +46,7 @@ const MailchimpForm = () => {
                                 className="required text"
                                 id="mce-FNAME"
                                 required
-                                value=""
+                                defaultValue=""
                                 style={inputStyles}
                             />
                         </div>
@@ -59,7 +60,7 @@ const MailchimpForm = () => {
                                 className="required email"
                                 id="mce-EMAIL"
                                 required
-                                value=""
+                                defaultValue=""
                                 style={inputStyles}
                             />
                         </div>
@@ -68,7 +69,7 @@ const MailchimpForm = () => {
                             <div className="response" id="mce-success-response" style={successResponseStyles}></div>
                         </div>
                         <div aria-hidden="true" style={{ position: 'absolute', left: '-5000px' }}>
-                            <input type="text" name="b_44cab78f72330593e7fa3daf7_80d8e0f76a" tabIndex="-1" value="" />
+                            <input type="text" name="b_44cab78f72330593e7fa3daf7_80d8e0f76a" tabIndex="-1" defaultValue="" />
                         </div>
                         <div className="optionalParent">
                             <div className="clear foot">
