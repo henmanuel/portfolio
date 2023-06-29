@@ -1,4 +1,3 @@
-import emailjs from "@emailjs/browser";
 import { content_ES } from "../Content_ES";
 import MailchimpForm from "./MailchimpForm";
 import { createElement, useRef } from "react";
@@ -40,7 +39,7 @@ const Contact = () => {
         </h2>
         <br />
         <div className="flex gap-10 md:flex-row flex-col">
-          <MailchimpForm/>
+          <MailchimpForm form={form} />
           <div className="flex-1 flex flex-col gap-5">
             {Contact.social_media.map((content, i) => (
               <div
@@ -50,7 +49,7 @@ const Contact = () => {
                 className="flex items-center gap-2"
               >
                 <h4 className="text-white">{createElement(content.icon)}</h4>
-                <a className="font-Poppins" href={content.link} target="_blank">
+                <a className="font-Poppins" href={content.link} target="_blank" rel="noopener noreferrer">
                   {content.text}
                 </a>
               </div>

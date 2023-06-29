@@ -1,10 +1,4 @@
-import React from 'react';
-import { useState } from "react";
-import { Pagination } from "swiper";
-import { Swiper, SwiperSlide } from "swiper/react";
-
 const PriceLevels = ({ priceLevels }) => {
-
   return (
     <section id="services">
       <div className="md:container px-5 py-14">
@@ -14,7 +8,7 @@ const PriceLevels = ({ priceLevels }) => {
 
         <div className="flex gap-5 justify-between flex-wrap group">
           {priceLevels.plans.map((content, i) => (
-            <div className="min-w-[14rem] duration-300 cursor-pointer border-2 border-slate-200 rounded-xl text-center bg-bg_light_primary p-6 flex-1">
+            <div key={i} className="min-w-[14rem] duration-300 cursor-pointer border-2 border-slate-200 rounded-xl text-center bg-bg_light_primary p-6 flex-1">
               <h6>{content.title}</h6>
               <h4>{content.description}</h4>
               <p className="sm:text-base text-sm">{content.review}</p>

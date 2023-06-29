@@ -69,19 +69,19 @@ const MailchimpForm = () => {
                             <label htmlFor="mce-FNAME" style={labelStyles}>
                                 Nombre <span className="asterisk">*</span>
                             </label>
-                            <input type="text" name="FNAME" className="required text" id="mce-FNAME" required value="" style={inputStyles} />
+                            <input type="text" name="FNAME" className="required text" id="mce-FNAME" required defaultValue="" style={inputStyles} />
                         </div>
                         <div className="mc-field-group">
                             <label htmlFor="mce-EMAIL" style={labelStyles}>
                                 Dirección de correo electrónico <span className="asterisk">*</span>
                             </label>
-                            <input type="email" name="EMAIL" className="required email" id="mce-EMAIL" required value="" style={inputStyles} />
+                            <input type="email" name="EMAIL" className="required email" id="mce-EMAIL" required defaultValue="" style={inputStyles} />
                         </div>
                         <div className="mc-field-group">
                             <label htmlFor="mce-PHONE" style={labelStyles}>
                                 Whatsapp
                             </label>
-                            <input type="text" name="PHONE" className="REQ_CSS" id="mce-PHONE" value="" style={inputStyles} />
+                            <input type="text" name="PHONE" className="REQ_CSS" id="mce-PHONE" defaultValue="" style={inputStyles} />
                         </div>
                         <div id="mergeRow-gdpr" className="mergeRow gdpr-mergeRow content__gdprBlock mc-field-group">
                             <div className="content__gdpr">
@@ -120,7 +120,7 @@ const MailchimpForm = () => {
                             <div className="response" id="mce-success-response" style={successResponseStyles}></div>
                         </div>
                         <div aria-hidden="true" style={hiddenInputStyles}>
-                            <input type="text" name="b_44cab78f72330593e7fa3daf7_80d8e0f76a" tabIndex="-1" value="" />
+                            <input type="text" name="b_44cab78f72330593e7fa3daf7_80d8e0f76a" tabIndex="-1" defaultValue="" />
                         </div>
                         <div className="optionalParent">
                             <div className="clear foot">
