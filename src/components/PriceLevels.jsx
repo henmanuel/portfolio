@@ -13,7 +13,7 @@ const PriceLevels = ({ priceLevels }) => {
 
         <div className="flex gap-5 justify-between flex-wrap group">
           {priceLevels.plans.map((content, i) => (
-            <div
+            <button
               key={i}
               onClick={() => {
                 fbq('track', 'Purchase', {currency: "USD", value: parseFloat(content.price).toFixed(2)});
@@ -31,7 +31,7 @@ const PriceLevels = ({ priceLevels }) => {
                 ))}
               </ul>
               <h4 style={{ fontSize: '20px' }}>{content.price}</h4>
-            </div>
+            </button>
           ))}
         </div>
       </div>
