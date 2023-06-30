@@ -29,16 +29,16 @@ const MailchimpForm = ({ form }) => {
                     id="mc-embedded-subscribe-form"
                     name="mc-embedded-subscribe-form"
                     className="validate"
-                    target="_self"
+                    target="_blank"
                     noValidate
                 >
                     <div id="mc_embed_signup_scroll">
                         <div className="indicates-required">
-                            <span className="asterisk">*</span> indicates required
+                            <span className="asterisk">*</span> campos obligatorios
                         </div>
                         <div className="mc-field-group">
                             <label htmlFor="mce-FNAME" style={labelStyles}>
-                                Name <span className="asterisk">*</span>
+                                Nombre <span className="asterisk">*</span>
                             </label>
                             <input
                                 type="text"
@@ -52,7 +52,7 @@ const MailchimpForm = ({ form }) => {
                         </div>
                         <div className="mc-field-group">
                             <label htmlFor="mce-EMAIL" style={labelStyles}>
-                                Email Address <span className="asterisk">*</span>
+                                Dirección de correo electrónico <span className="asterisk">*</span>
                             </label>
                             <input
                                 type="email"
@@ -73,9 +73,9 @@ const MailchimpForm = ({ form }) => {
                         </div>
                         <div className="optionalParent">
                             <div className="clear foot">
-                                <input type="submit" name="subscribe" id="mc-embedded-subscribe" className="button" value="Subscribe" />
+                                <input type="submit" name="subscribe" id="mc-embedded-subscribe" className="button" value="Suscribirse" />
                                 <p className="brandingLogo" style={{ margin: '0px auto' }}>
-                                    <a href="http://eepurl.com/iuAjvY" title="Mailchimp - email marketing made easy and fun">
+                                    <a href="http://eepurl.com/iuAjvY" title="Mailchimp: fácil y divertido email marketing">
                                         <img
                                             src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg"
                                             alt="referral badge"

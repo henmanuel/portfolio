@@ -350,19 +350,19 @@ export const content_ES = {
         link: "https://wa.me/message/2AGAMZCPXIXNG1",
       },
       {
-        text: "Instagram",
-        icon: BsInstagram,
-        link: "https://www.instagram.com/henmascript",
-      },
-      {
         text: "Facebook",
         icon: AiOutlineFacebook,
         link: "https://www.facebook.com/HenmaScriptAI",
       },
       {
+        text: "Instagram",
+        icon: BsInstagram,
+        link: "https://www.instagram.com/henmascript",
+      },
+      {
         text: "+506 7271 6641",
         icon: MdCall,
-        link: "tel:50672716641 https://wa.me/message/2AGAMZCPXIXNG1",
+        link: "tel:50672716641",
       },
       {
         text: "henmanuelvargas@gmail.com",
@@ -387,7 +387,7 @@ export const content_ES = {
           "Mejoras en funcionalidad e interfaz.",
           "Actualizaciones y mantenimiento."
         ],
-        link: "https://www.fiverr.com/henmanuelvargas/create-a-landing-page-for-your-business",
+        link: "https://calendly.com/henmascript/soporte",
       },
       {
         title: "Desarrollo",
@@ -398,7 +398,7 @@ export const content_ES = {
           "Integración con otras plataformas.",
           "Soporte técnico y asesoramiento."
         ],
-        link: "https://www.fiverr.com/henmanuelvargas/create-a-landing-page-for-your-business",
+        link: "https://calendly.com/henmascript/desarrollo",
       },
       {
         title: "Arquitectura",
@@ -409,7 +409,7 @@ export const content_ES = {
           "Optimización del rendimiento y seguridad.",
           "Consultoría y seguimiento continuo."
         ],
-        link: "https://www.fiverr.com/henmanuelvargas/create-a-landing-page-for-your-business",
+        link: "https://calendly.com/henmascript/arquitectura",
       },
     ],
   }
